@@ -1,0 +1,32 @@
+{
+  "name": "telegram-reminder-bot",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-localstorage": "latest",
+    "node-telegram-bot-api": "latest",
+    "store": "latest",
+    "debug": "latest"
+  },
+  "description": "Simple reminder nodejs bot for telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andykras/telegram-reminder-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "nodejs",
+    "reminder"
+  ],
+  "author": "Andrey Krasnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andykras/telegram-reminder-bot/issues",
+    "email": "root@andykras.org"
+  },
+  "homepage": "https://github.com/andykras/telegram-reminder-bot#readme"
+}
