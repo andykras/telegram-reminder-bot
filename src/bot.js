@@ -131,6 +131,7 @@ class Bot {
         var commandsRegExp = new RegExp(String.raw`^(${cmds})(@${this.botname})*$`);
         self.bot.onText(commandsRegExp, function (msg, match) {
             debug('on %s', match.input);
+            match.input = match.input.replace(`@${self.botname}`, '');
             self.bot.sendMessage(msg.chat.id, Bot.commandTypes[match.input], {parse_mode: 'markdown'}).then(function () {
                 //if (match.input.match(/(info|start)/)) {
                 if (match.input == '/start') {
