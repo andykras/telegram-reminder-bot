@@ -61,6 +61,12 @@ Should see something like this
 bot **** has been deployed +273ms
 ```
 
+Contact me
+----------
+You can find this bot working on http://telegram.me/andykrasbot
+
+Feel free to contact me [via Telegram](http://telegram.me/andykras)
+
 License
 -------
 This is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
