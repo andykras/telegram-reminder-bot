@@ -61,11 +61,11 @@ Should see something like this
 bot **** has been deployed +273ms
 ```
 
-Contacts
---------
+Contact me
+----------
 You can find this bot working on http://telegram.me/andykrasbot
 
-Feel free to contact [me](http://telegram.me/andykras) as well
+Feel free to contact me [via Telegram](http://telegram.me/andykras)
 
 License
 -------
