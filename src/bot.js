@@ -249,6 +249,9 @@ To set by date:
         self.bot.sendMessage(id, util.format("@%s asked to recall\n%s", user, text)).then(function () {
             debug(`reminder '${text}' completed for ${user}`);
             self.remove(rem);
+        }).catch(function(e) {
+            debug(`reminder '${text}' failed for ${user} with ${e}`);
+            self.remove(rem);
         });
     }
 
