@@ -172,14 +172,15 @@ class Bot {
     }
 
     static info() {
-        return `My name is [Andrey Krasnov](http://andykras.org)
-Currently I'm working at *Intel* company. This simple bot was made in my free time, because I was curious to find out how it works ☼
+        return `Hi there!
+My name is ☼ [Andrey Krasnov](http://andykras.org) ☼
+This is simple reminder bot made by me
 \`\`\`
 ╒═════════════════╕
- ►   Feel free   ◄
- ► to contact me ◄
+ ►   Reminder    ◄
+ ►  andykrasBOT  ◄
 ╘═════════════════╛\`\`\`
-[♫](https://youtu.be/JMhRHi3rWQY)`;
+[♫](https://t.me/andykras)`;
     }
 
     static help() {
