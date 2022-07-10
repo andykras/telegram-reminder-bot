@@ -1,6 +1,6 @@
 "use strict";
 
-if (typeof global.localStorage === "undefined" || global.localStorage === null) {
+if (typeof global.localStorage == null) {
     var LocalStorage = require('node-localstorage').LocalStorage;
     global.localStorage = new LocalStorage('./data', Number.MAX_VALUE);
 }
